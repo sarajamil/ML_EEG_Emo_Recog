@@ -184,13 +184,6 @@ if strcmp(outclass,'valence')||strcmp(outclass,'arousal')
     sublist(sublist==91) = [];
     sublist(sublist==99) = [];
 end
-%%%%%%%%%%%%%%% JUST TRYING SHIT OUT
-% % Trying to remove subjects that felt opposite emotion at least once (valence)
-% % there's 47 of them...
-% ivfvh = [3 11 13 14 15 20 23 24 26 30 38 39 40 42 43 45 49 51 52 53 56 58 60 63 65 71 75 76 77 78 80 81 82 88 90 91 92 96 97 98 100 101 104 105 106 107 110];
-% for i = 1:length(ivfvh)
-%     sublist(sublist==ivfvh(i)) = [];
-% end
 
 %% Store accuracy
 
